@@ -9,7 +9,7 @@ document.body.append(par);
 
 
 var listItem = document.createElement("ol");
-listItem.textContent = "Learn About Javascritp";
+listItem.textContent = "Learn About Javascript";
 
 
 var firstList = document.createElement("li");
