@@ -7,12 +7,20 @@ par.textContent = "All of this was created with JavaScript"
 document.body.append(par)
 
 var listItem = document.createElement("li")
+listItem.textContent = "Learn"
+var list = document.getElementById("list")
+list.append(listItem)
+document.body.append(list)
+
+var listItem = document.createElement("li")
 listItem.textContent = "About"
 var list = document.getElementById("list")
 list.append(listItem)
 document.body.append(list)
 
 var listItem = document.createElement("li")
-listItem.textContent = "DOM"
+listItem.textContent = "Dom"
 var list = document.getElementById("list")
 list.append(listItem)
+document.body.append(list)
+
