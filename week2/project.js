@@ -1,18 +1,22 @@
-document.write("<a href= >");
-document.write("Home" + "&nbsp&nbsp");
-document.write("</a>"); 
 
-document.write("<a href= >");
-document.write("Blog" + "&nbsp&nbsp");
-document.write("</a>");
+var nav = document.createElement("nav");
+document.body.appendChild(nav);
+var navlink = document.createElement("a");
+navlink.textContent = "Home  ";
+navlink.setAttribute ("href",'http://google.com') 
+nav.append(navlink);
 
-document.write("<a href= >");
-document.write("Contact" + "&nbsp&nbsp");
-document.write("</a>");
+var navlinkone = document.createElement("a");
+navlinkone.textContent = "Blog  ";
+navlinkone.setAttribute ("href",'https://www.javascript.com/learn/strings') 
+nav.append(navlinkone);
 
-document.write("<a href= >");
-document.write("About");
-document.write("</a>");
+
+var navlinktwo = document.createElement("a");
+navlinktwo.textContent = "Contact  ";
+navlinktwo.setAttribute ("href","") 
+nav.append(navlinktwo);
+
 
 
 // start of h1
@@ -43,14 +47,10 @@ listItem.append(secondList);
 var thirdList = document.createElement("li");
 thirdList.textContent = "How to create a ordered list in Javascript";
 listItem.append(thirdList);
-
 document.body.append(listItem);
 
-document.write("<a href= >");
-document.write("Follow Us");
-document.write("</a>"); 
-document.body.append(footer)
 
-
-
+var footer = document.createElement("footer");
+footer.textContent = "Follow Us";
+document.body.append(footer);
 
