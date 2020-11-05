@@ -1,9 +1,7 @@
 for (var i = 0; i < 10; i++) {
     var head = document.createElement("h1");
     head.innerHTML = "Hello World";
-
-    document.body.appendChild(head);
-    
+    document.body.appendChild(head);    
 }
 
 var style = document.createElement("div");
