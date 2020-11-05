@@ -1,6 +1,8 @@
 for (var i = 0; i < 10; i++) {
     var head = document.createElement("h1");
     head.innerHTML = "Hello World";
+
+
     document.body.appendChild(head);    
 }
 
@@ -25,4 +27,3 @@ var list;
 for (list of names) {
     document.write(list + "<br >");
   }
-
