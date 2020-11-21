@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="input.css">
+    </head>
+
+    <body>
+      
+
+<form id="new">
+    <label>First name:</label>
+    <input id="name" type="text">
+    <br>
+    <label>Last name:</label>
+    <input id="last"  type="text">
+    <br>
+    <label>Age:</label>
+    <input id="age"  type="text">
+    <br>
+    <label>Gender:</label>
+    <input type="radio" value="Male" name="gender" >
+    <label for="gender">Male</label>
+    <input type="radio" value="Female" name="gender" >
+    <label for="gender">Female</label>
+    <br>
+    <label>Location:</label>
+    <input name="location" value="Miami" type="checkbox" >
+    <label for="location">Miami</label>
+    <input name="location" value="New York" type="checkbox" >
+    <label for="location">New York</label>
+    <input name="location" value="Houston" type="checkbox">
+    <label for="location">Houston</label>
+<br>
+<label>Dietary restrictions:</label>
+<input name="res" type="checkbox" value="Lactose free">
+    <label for="Dietary restrictions">Lactose free</label>
+    <input name="res" value="Kosher" type="checkbox" >
+    <label for="Dietary restrictions">Kosher</label>
+    <input name="res" value="Vegetarian" type="checkbox">
+    <label for="Dietary restrictions">Vegetarian</label>
+<br>
+    <button onclick= "popUp(event)" >Submit</button>
+</form>
+
+<script src="input.js"></script>
+    </body>
+</html>
