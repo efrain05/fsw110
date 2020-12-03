@@ -1,0 +1,42 @@
+
+
+
+/* Mobile */
+@media (min-width: 368px){
+   #name{
+       text-align: right;
+   } 
+
+   html{
+       background-color: rgb(8, 167, 32);
+       color: aliceblue;
+   }
+
+   body{
+       font-family: cursive;
+   }
+}
+
+/* Laptop */
+@media only screen and (min-width:800px){
+    #name{
+        text-align: center;
+    }
+    
+    html{
+        background-color: #004879;
+    
+    }
+    
+    body{
+        color: aliceblue;
+        font-family: fantasy;
+    
+    }
+    
+    
+    div,ol{
+        text-align: left;
+        margin: 50px;
+    }
+}
